@@ -90,23 +90,29 @@ class FullQuiz implements Quiz {
 const quiz = new FullQuiz()
 
 quiz.addQuestion({
-	text: "Who create this",
-	options: ["Rajae", "Donte", "Kyle"],
-	answer: "Rajae"
+	text: "What year are we in",
+	options: ["2023", "2022", "2021"],
+	answer: "2023"
 })
 
 
 quiz.addQuestion({
-	text: "What time did the wifi go away",
-	options: ["10pm", "8pm", "9pm"],
-	answer: "9pm"
+	text: "What language was used to create this?",
+	options: ["ts", "js", "rust"],
+	answer: "ts"
 })
 
 quiz.addQuestion({
-	text: "What Uni Dp I Go To",
-	options: ["CMU", "UWI", "UTECH"],
-	answer: "CMU"
+	text: "Who won the world cup in 2022",
+	options: ["spain", "argentina", "brazil"],
+	answer: "argentina"
 })
 
+
+quiz.addQuestion({
+	text: "is go a garbage collected language",
+	options: ["Yes", "No"],
+	answer: "Yes"
+})
 
 quiz.displayQuestion()
